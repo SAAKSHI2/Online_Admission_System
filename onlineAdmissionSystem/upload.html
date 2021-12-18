@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="upload.css">
+
+<div class="container">
+    
+    <div class="upload_d1">
+
+        <h1>Upload Documents for Verification</h1>
+        
+        <form  class="upload" action="submit.php" method="POST" >
+
+            <div>
+                <label>Candidate Photo</label>
+                <input type="file" name="photo" required>
+            </div>
+
+            <div>
+                <label>10th Marksheet</label>
+                <input type="file" name="10th_Marksheet" required>
+            </div>
+
+            <div>
+                <label>12th Marksheet</label>
+                <input type="file" name="12th_Marksheet" required>
+            </div>
+
+            <div>
+                <label>Adhaar Card</label>
+                <input type="file" name="Adhaar_card" required>
+            </div>
+
+            <div>
+                <label>Tc+Migration+Character</label>
+                <input type="file" name="tmc" required>
+            </div>
+
+            <div class="button">
+                <button type="submit" name="submit_form" class="submit_btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<link rel='stylesheet' href='Apply_now.css'>
+<script>
+    function pop()
+    {
+        alert("wrong username or password");
+    }
+</script>
+<div class="container">
+
+    <div class="form_contianer">
+        <form action="login.php" method="POST">
+
+            <div class="form_label">
+                <label>Username/Email :</label>
+                <input type="text" placeholder="Enter your username/email..." name="login_name" required>
+            </div>
+
+            <div class="form_label">
+                <label>Password :</label>
+                <input type="text" placeholder="Enter your password..." name="login_password" required>
+            </div>
+
+            <button type="submit" name="login_btn" class="submit_btn">Login</button><br>
+        </form>
+    </div>
+</div>
